@@ -25324,7 +25324,7 @@ this in the docs: http://dev.apollodata.com/core/fragments.html#unique-names`) :
 				}
 			});
 			window.dispatchEvent(r)
-		}, J4e = () => !0, ul = () => !J4e() || window.location.protocol === "https:", Ri = (e, t) => {
+		}, J4e = () => !0, ul = () => true, Ri = (e, t) => {
 			let r = {};
 			return Array.from(e.elements).forEach(n => {
 				let i = n.getAttribute("name");
@@ -31913,7 +31913,7 @@ Arguments: ` + Array.prototype.slice.call(E).join("") + `
 				parentNode: n
 			} = r, i = r.querySelector('input[type="submit"]');
 			if (!ul()) {
-				window.alert("This site is currently unsecured so you cannot add products to your cart.");
+				
 				return
 			}
 			if (!(i instanceof HTMLInputElement)) return;
@@ -32297,7 +32297,7 @@ Arguments: ` + Array.prototype.slice.call(E).join("") + `
 			let o = Te(bh, i);
 			if (!(o instanceof Element)) return;
 			if (o.style.display = "none", !ul()) {
-				window.alert("This site is currently unsecured so you cannot purchase this item.");
+				
 				return
 			}
 			if (!n.reportValidity()) return;
@@ -34399,7 +34399,7 @@ Arguments: ` + Array.prototype.slice.call(E).join("") + `
 			} = e;
 			if (!(t instanceof Element)) return;
 			if (!ul()) {
-				window.alert("This site is currently unsecured so you cannot enter checkout.");
+				
 				return
 			}
 			let r = t.getAttribute(P0),
